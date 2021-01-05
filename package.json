@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon js-src/app.js",
+    "start": "node js-src/app.js",
+    "build": "tsc"
   },
   "author": "",
   "license": "ISC",
@@ -14,6 +16,8 @@
     "typescript": "^4.1.3"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "socket.io": "^3.0.4"
   }
 }
