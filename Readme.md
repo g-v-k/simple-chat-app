@@ -1,4 +1,4 @@
-This is a Chat application in Nodejs for practice. The source code is written in Typescript.
+This is a Chat application using web sockets in Nodejs for practice. The source code is written in Typescript.
 
 
 
